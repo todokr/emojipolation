@@ -35,7 +35,7 @@ emoji":boy|type_3: & :girl|type_1_2: & :information_desk_person|type_4:"
 
 
 ## Available Emojis
-[reader-friendly doc is here.](#)
+[More reader-friendly table is here.](https://todokr.github.io/emojipolation/)
 
 | Emoji | Aliases | Emoji | Aliases | Emoji | Aliases | Emoji | Aliases |
 | :---: | ------- | :---: | ------- | :---: | ------- | :---: | ------- |
