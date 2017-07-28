@@ -5,14 +5,18 @@ lazy val root = (project in file(".")).
     inThisBuild(List(
       organization := "io.github.todokr",
       scalaVersion := "2.12.1",
-      version      := "0.1.0"
+      version      := "0.2.0"
     )),
     name := "emojipolation",
     libraryDependencies ++= Seq(
-      "com.vdurmont" % "emoji-java" % "3.1.3",
+      "com.vdurmont"   % "emoji-java" % "3.2.0",
+      "org.scalamacros" % "paradise_2.12.1" % "2.1.0",
       scalaTest % Test
     )
   )
+
+resolvers += Resolver.sonatypeRepo("releases")
+addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.full)
 
 publishMavenStyle := true
 
