@@ -1,3 +1,6 @@
+[![Latest version](https://index.scala-lang.org/todokr/emojipolation/emojipolation/latest.svg)](https://index.scala-lang.org/todokr/emojipolation)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.todokr/emojipolation_2.12/badge.svg)](https://mvnrepository.com/artifact/io.github.todokr/emojipolation_2.12/0.1.0)
+
 # emojipolation
 A Emoji Interpolation Library for Scala☺️✨
 
