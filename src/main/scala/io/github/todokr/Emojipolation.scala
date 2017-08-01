@@ -7,7 +7,7 @@ import com.vdurmont.emoji.EmojiParser
 
 object Emojipolation {
 
-  implicit class EmojipolationImpl(sc: StringContext) {
+  implicit class EmojipolationImpl(val sc: StringContext) extends AnyVal {
     def emoji(args: Any*): String = macro impl
   }
 
