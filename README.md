@@ -7,7 +7,7 @@ A Emoji Interpolation Library for Scala☺️✨
 ## Usage
 Add dependency in your `Build.sbt`👇
 ```
-libraryDependencies += "io.github.todokr" %% "emojipolation" % "0.1.0"
+libraryDependencies += "io.github.todokr" %% "emojipolation" % "0.2.0"
 ```
 
 Usage is very simple💃
